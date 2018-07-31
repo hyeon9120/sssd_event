@@ -1,0 +1,219 @@
+
+.color01 {
+	background-image:url(../image/event_01.png);
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:-100px;
+}
+.color02 {
+	background-image:url(../image/event_02.png);
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:-100px;
+}
+.color03 {
+	background-image:url(../image/event_03.png);
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:-100px;
+}
+.color04 {
+	background-image:url(../image/event_04.png);
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:-100px;
+}
+.type01 {
+	left:32px;
+	animation-duration: 6s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+}
+.type02 {
+	left:5px;
+	animation-duration: 10s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 200ms;
+}
+.type03 {
+	left:150px;
+	animation-duration: 6s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 1200ms;
+}
+.type04 {
+	left:180px;
+	animation-duration: 12.6s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 7000ms;
+}
+.type05 {
+	left:270px;
+	animation-duration: 6s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 500ms;
+}
+.type06 {
+	left:360px;
+	animation-duration: 5.5s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 0ms;
+}
+.type07 {
+	left:400px;
+	animation-duration: 3s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 1200ms;
+}
+.type08 {
+	left:430px;
+	animation-duration: 20s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 5200ms;
+}
+.type09 {
+	left:490px;
+	animation-duration: 10s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 6200ms;
+}
+.type10 {
+	left:530px;
+	animation-duration: 6.4s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 1500ms;
+}
+.type11 {
+	left:540px;
+	animation-duration: 8.8s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 600ms;
+}
+.type12 {
+	left:570px;
+	animation-duration: 9s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 700ms;
+}
+.type13 {
+	left:620px;
+	animation-duration: 12.4s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 200ms;
+}
+.type14 {
+	left:651px;
+	animation-duration: 5s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 200ms;
+}
+.type15 {
+	left:672px;
+	animation-duration: 9.2s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 500ms;
+}
+.type16 {
+	left:755px;
+	animation-duration: 3.7s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 100ms;
+}
+.type17 {
+	left:800px;
+	animation-duration: 5.8s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 320ms;
+}
+.type18 {
+	left:820px;
+	animation-duration: 23s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 40ms;
+}
+.type19 {
+	left:860px;
+	animation-duration: 5.6s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 250ms;
+}
+.type20 {
+	left:930px;
+	animation-duration: 7.3s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 150ms;
+}
+.type21 {
+	left:980px;
+	animation-duration: 10s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 550ms;
+}
+.type22 {
+	left:1020px;
+	animation-duration: 11.2s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay:700ms;
+}
+.type23 {
+	left:1080px;
+	animation-duration: 18.2s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 300ms;
+}
+.type24 {
+	left:1160px;
+	animation-duration: 9s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 500ms;
+}
+.type25 {
+	left:1150px;
+	animation-duration: 17s;
+	animation-name: identifier;
+	animation-iteration-count: infinite;
+	animation-delay: 100ms;
+}
+@keyframes identifier_phone {
+0% {top: -100px;opacity:0;}
+50% {opacity:1}
+100% {top: 150px}
+}
+@keyframes wrap01_btn {
+0% {transform: rotate(0)}
+20% {transform: rotate(-2deg)}
+70% {transform: rotate(3deg)}
+100% {transform: rotate(0)}
+}
+@keyframes identifier {
+0% {top: -100px;opacity:0;}
+50% {opacity:1}
+100% {top: 1050px;opacity:0}
+}

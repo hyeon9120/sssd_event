@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>솜씨당 사전예약 이벤트</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+<link rel="stylesheet" href="css/m.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="wrap01">
+	<div class="container">
+		<div class="img_m"><img src="image/m/m_wrap01.png" alt=""></div>
+		<div class="type01 color01"></div>
+		<div class="type02 color03"></div>
+		<div class="type03 color03"></div>
+		<div class="type04 color02"></div>
+		<div class="type05 color01"></div>
+		<div class="type06 color02"></div>
+		<div class="type07 color01"></div>	
+		<div class="type08 color03"></div>
+		<div class="type09 color02"></div>
+		<div class="type10 color03"></div>	
+		<div class="type11 color04"></div>
+		<div class="type12 color02"></div>	
+		<div class="type13 color03"></div>	
+		<div class="type14 color02"></div>	
+		<div class="type15 color04"></div>	
+		<div class="type16 color03"></div>	
+		<div class="type17 color02"></div>	
+		<div class="type18 color04"></div>
+		<div class="type19 color01"></div>
+		<div class="type20 color03"></div>
+		<div class="type21 color01"></div>
+		<div class="type22 color02"></div>
+		<div class="type23 color04"></div>
+		<div class="type24 color02"></div>
+		<div class="type25 color01"></div>
+		<div class="btn">
+			<a href="#none" id="moveto_wrap04"><img src="image/m/m_01_btn.png" alt="사전예약 신청하기"></a>
+		</div>
+	</div>
+</div>
+<div class="wrap02"><div class="img_m"><img src="image/m/m_wrap02.png" alt=""></div></div>
+<div class="wrap03"><div class="img_m"><img src="image/m/m_wrap03.png" alt=""></div></div>
+<div class="wrap04"><div class="img_m"><img src="image/m/m_wrap04.png" alt=""></div></div>
+<form>
+	<div class="wrap05" id="wrap05">
+		<div class="container">
+			<div class="img05_01"><img src="image/m/m_wrap05.png" alt="사전예약 신청하기!"></div>
+				<div class="event_form">
+					<div class="form_radio">
+						<div class="radio radio-inline">
+							<input type="radio" id="event_radio01" name="event_radio_type">
+							<label for="event_radio01">안드로이드</label>
+						</div>
+						<div class="radio radio-inline" style="margin-right:12px">
+							<input type="radio" id="event_radio02" name="event_radio_type">
+							<label for="event_radio02">아이폰</label>
+						</div>
+					</div>
+					<div class="form_input">
+						<div class="form_input_01">
+							<input type="text" value="010" class="event_text" maxlength="3">
+						</div>
+						<div class="form_input_02">
+							-
+						</div>
+						<div class="form_input_03">
+							<input type="text" class="event_text" placeholder="‘-’를 제외한 휴대폰번호 입력">
+						</div>
+					</div>
+					<div class="event_form_txt">* 사전예약을 신청하시면 문자로 추천 URL이 발송됩니다.</div>
+					<div class="form_btn">
+						<button onclick=";">사전예약 신청</button>
+					</div>
+				</div>
+				<div class="form_checkbox">
+					<div class="checkbox">
+						<input type="checkbox" id="event_agree01" name="event_agree01">
+						<label for="event_agree01">개인정보 수집 및 이용에 동의합니다. (필수)</label>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" id="event_agree02" name="event_agree02">
+						<label for="event_agree02">이벤트 관련 소식 수신에 동의합니다. (필수)</label>
+					</div>
+				</div>
+				
+		</div>
+	</div>
+	<div class="wrap06">
+		<div class="container">
+			<div class="contents">
+				<div class="alert">꼭 알아두세요!</div>
+				<div class="alert_list">
+					<ul>
+						<li>
+							사전예약을 하시면 신청한 휴대폰 번호로 친구 추천 URL이 발송되며, 해당 URL을 친구분들에게 공유하시면 자동으로 친구 추천이 이루어집니다.<br>
+							(꼭 발송된 URL을 이용해주세요.)
+						</li>
+						<li>사전예약 신청은 번호당 1회만 참여 가능합니다.</li>
+						<li>부정한 방법으로 이벤트 참여 시 이벤트 상품 지급이 취소될 수 있습니다.</li>
+						<li>이벤트 당첨자 발표는 9월 7일 발표 예정입니다. (일정에 따라 변경 가능)</li>
+						<li>이벤트 관련 궁금하신 내용은 카카오톡 플러스친구(@솜씨당) 또는 블로그 통해서 가능합니다.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrap07">
+		
+	</div>
+</form>
+<script>
+	$('#moveto_wrap04').click(function(){
+		$('html, body').animate({scrollTop:$('#wrap05').position().top}, 'slow');
+	});
+</script>
+</body>
+</html>
