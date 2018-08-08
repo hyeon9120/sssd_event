@@ -29,18 +29,18 @@ a {
 	background-image:url(../image/warp_01.png);
 	background-position: center bottom;
 	background-repeat:no-repeat;
-	width:738px;
+	width:861px;
 	height:564px;
 	position:absolute;
 	top:130px;
 	left:50%;
-	margin-left:-369px;
+	margin-left:-430px;
 	z-index:99;
 }
 .wrap01 .btn {
 	position:absolute;	
 	top:480px;
-	left:620px;
+	left:550px;
 	z-index:100;
 }
 .wrap01 .btn a {
@@ -93,7 +93,7 @@ a {
 .wrap01 .txt03 {
 	position:absolute;
 	top:580px;
-	left:632px;
+	left:572px;
 	color:#d4d4ff;
 	font-size:14px;
 	z-index:103;
@@ -213,6 +213,16 @@ a {
 	margin:0 auto;
 	.checkbox {
 		margin-bottom:10px;
+	}
+	a {
+		display:inline-block;
+		font-size:17px;
+		color:#fff;
+		padding:6px 0;
+		cursor:pointer;
+		&:active {
+			color:#dcdcf4
+		}
 	}
 }
 .event_text {

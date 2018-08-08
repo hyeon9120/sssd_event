@@ -173,6 +173,16 @@ form {
 	.checkbox {
 		margin-bottom:0;
 	}
+	a {
+		display:inline-block;
+		font-size:14px;
+		color:#fff;
+		padding:4px 0;
+		cursor:pointer;
+		&:active {
+			color:#dcdcf4
+		}
+	}
 }
 .event_text {
 	line-height:14px;
